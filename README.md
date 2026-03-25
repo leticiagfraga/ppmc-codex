@@ -14,3 +14,4 @@ Este repositório organiza os artefatos da área de Projetos, Processos e Melhor
 ├── 04_templates/
 ├── AGENTS.md
 └── README.md
+```
