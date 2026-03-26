@@ -6,13 +6,13 @@
 - Escopo: todas as pastas e arquivos do repositório `ppmc-codex`.
 - Responsável(is): área de Projetos, Processos e Melhoria Contínua (PPMC).
 - Data de criação: 2026-03-25.
-- Data da última atualização: 2026-03-25.
+- Data da última atualização: 2026-03-26.
 - Status: ativo.
 - Referências relacionadas: `AGENTS.md`, `README.md`, `00_governanca/padroes_documentais.md`, `00_governanca/criterios_qualidade.md`.
 - Próximo passo: aplicar este padrão nos próximos documentos criados e revisar aderência dos materiais existentes.
 - Prazo: 2026-04-15.
 - Riscos ou bloqueios: manutenção de nomes legados fora do padrão e ambiguidade na identificação de artefatos.
-- Decisões pendentes: definir responsável formal pela revisão periódica da nomenclatura.
+- Decisões pendentes: nenhuma. Definição aprovada: revisão periódica da nomenclatura sob responsabilidade de Letícia Fraga (Gerente de Projetos, Processos e Melhoria Contínua).
 
 ## 1. Princípios gerais
 - Priorizar nomes curtos, claros e sem ambiguidade.
@@ -82,4 +82,6 @@ Não usar prefixo de data quando o documento for permanente ou de referência es
 ## Histórico de revisões
 | Data | Alteração | Responsável |
 |---|---|---|
+| 2026-03-26 | Definido responsável formal pela revisão periódica da nomenclatura. | Codex |
 | 2026-03-25 | Criação da convenção consolidada de nomenclatura para pastas e arquivos. | Codex |
+

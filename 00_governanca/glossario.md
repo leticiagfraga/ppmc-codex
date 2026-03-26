@@ -6,13 +6,13 @@
 - Escopo: todos os documentos do repositório `ppmc-codex`.
 - Responsável(is): área de Projetos, Processos e Melhoria Contínua (PPMC).
 - Data de criação: 2026-03-25.
-- Data da última atualização: 2026-03-25.
+- Data da última atualização: 2026-03-26.
 - Status: ativo.
 - Referências relacionadas: `AGENTS.md`, `README.md`, `00_governanca/padroes_documentais.md`, `00_governanca/criterios_qualidade.md`.
 - Próximo passo: revisar termos recorrentes e incluir novos conceitos consolidados.
 - Prazo: próxima revisão sugerida em 2026-06-30.
 - Riscos ou bloqueios: uso de termos divergentes fora deste padrão.
-- Decisões pendentes: definir periodicidade oficial de revisão (mensal, trimestral ou semestral).
+- Decisões pendentes: nenhuma. Definições aprovadas: revisão do glossário trimestral sob responsabilidade de Letícia Fraga (Gerente de Projetos, Processos e Melhoria Contínua).
 
 ## Termos e definições
 | Termo | Definição padrão | Uso recomendado |
@@ -53,4 +53,6 @@
 ## Histórico de revisões
 | Data | Alteração | Responsável |
 |---|---|---|
+| 2026-03-26 | Definida revisão trimestral do glossário e responsável formal pela revisão. | Codex |
 | 2026-03-25 | Criação da versão inicial do glossário. | Codex |
+

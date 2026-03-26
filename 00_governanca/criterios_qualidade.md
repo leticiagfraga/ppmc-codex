@@ -6,13 +6,13 @@
 - Escopo: documentos de governança, projetos, processos e melhoria contínua.
 - Responsável(is): área de Projetos, Processos e Melhoria Contínua (PPMC).
 - Data de criação: 2026-03-25.
-- Data da última atualização: 2026-03-25.
+- Data da última atualização: 2026-03-26.
 - Status: ativo.
 - Referências relacionadas: `AGENTS.md`, `README.md`, `00_governanca/glossario.md`, `00_governanca/padroes_documentais.md`.
 - Próximo passo: aplicar estes critérios nos próximos artefatos revisados pela área.
 - Prazo: 2026-04-15.
 - Riscos ou bloqueios: avaliação subjetiva sem evidência mínima de qualidade.
-- Decisões pendentes: formalizar periodicidade de auditoria de qualidade documental.
+- Decisões pendentes: nenhuma. Definições aprovadas: auditoria de qualidade documental semestral sob responsabilidade de Letícia Fraga (Gerente de Projetos, Processos e Melhoria Contínua).
 
 ## Regras de aprovação mínima
 Um documento só deve ser considerado pronto quando atender simultaneamente:
@@ -68,4 +68,6 @@ Usar uma das classificações abaixo:
 ## Histórico de revisões
 | Data | Alteração | Responsável |
 |---|---|---|
+| 2026-03-26 | Definida auditoria semestral de qualidade documental e responsável formal pela auditoria. | Codex |
 | 2026-03-25 | Criação da versão inicial dos critérios de qualidade. | Codex |
+
