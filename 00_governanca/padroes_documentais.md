@@ -6,13 +6,13 @@
 - Escopo: todos os documentos produzidos no repositório `ppmc-codex`.
 - Responsável(is): área de Projetos, Processos e Melhoria Contínua (PPMC).
 - Data de criação: 2026-03-25.
-- Data da última atualização: 2026-03-25.
+- Data da última atualização: 2026-03-26.
 - Status: ativo.
 - Referências relacionadas: `AGENTS.md`, `README.md`, `00_governanca/glossario.md`, `00_governanca/criterios_qualidade.md`.
 - Próximo passo: validar este padrão nos próximos documentos criados nas frentes de projeto, processo e melhoria.
 - Prazo: 2026-04-15.
 - Riscos ou bloqueios: adoção parcial dos padrões e manutenção de formatos legados sem convergência.
-- Decisões pendentes: definir responsável formal pela revisão periódica deste padrão.
+- Decisões pendentes: nenhuma. Definições aprovadas: revisão dos padrões documentais semestral sob responsabilidade de Letícia Fraga (Gerente de Projetos, Processos e Melhoria Contínua).
 
 ## Estrutura mínima obrigatória
 Todo documento novo deve conter, quando aplicável:
@@ -90,4 +90,7 @@ Usar valores padronizados:
 ## Histórico de revisões
 | Data | Alteração | Responsável |
 |---|---|---|
+| 2026-03-26 | Limpeza de duplicidade no modelo de metadados, mantendo definições aprovadas. | Codex |
+| 2026-03-26 | Definida revisão semestral dos padrões documentais e responsável formal pela revisão. | Codex |
 | 2026-03-25 | Criação da versão inicial do padrão documental. | Codex |
+
