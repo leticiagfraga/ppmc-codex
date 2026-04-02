@@ -15,13 +15,13 @@ Ordem obrigatoria de operacao:
 - Escopo: `01_projetos/*` e `05_bases/kpis/*.csv`.
 - Responsavel(is): Leticia Fraga (dona funcional); Codex (apoio operacional).
 - Data de criacao: 2026-03-26.
-- Data da ultima atualizacao: 2026-03-27.
+- Data da ultima atualizacao: 2026-04-02.
 - Status: ativo.
 - Referencias relacionadas: `05_bases/kpis/README.md`, `00_governanca/rotina_operacional_codex_ppmc.md`, `01_projetos/*/02_status_report.md`, `01_projetos/*/03_riscos_impedimentos.md`.
-- Proximo passo: aplicar a derivacao no proximo fechamento mensal.
-- Prazo: [definir].
+- Proximo passo: validar os parametros de governanca e aplicar a derivacao no fechamento mensal de 2026-05.
+- Prazo: 2026-05-02.
 - Riscos ou bloqueios: preenchimento incompleto dos dossies reduz confiabilidade da derivacao.
-- Decisoes pendentes: confirmar periodicidade oficial de apuracao (mensal recomendado).
+- Decisoes pendentes: validar oficialmente os parametros de apuracao e fechamento listados na secao 1.1.
 
 ## 1. Definicoes de apuracao
 - Periodo de apuracao: recorte `ano` e `mes` usado nas bases CSV (ex.: `2026` e `3`).
@@ -30,6 +30,12 @@ Ordem obrigatoria de operacao:
   - metadados obrigatorios preenchidos;
   - secao operacional principal com pelo menos um registro valido ou `N_A` justificado quando cabivel;
   - historico de revisoes atualizado.
+
+## 1.1 Parametros oficiais de apuracao e fechamento (proposta para validacao)
+- Periodicidade oficial de apuracao: mensal.
+- Data fixa de fechamento mensal: dia 2 de cada mes (apuracao do mes imediatamente anterior).
+- Data fixa de fechamento quadrimestral: dia 5 de maio, dia 5 de setembro e dia 5 de janeiro (fechando os quadrimestres jan-abr, mai-ago e set-dez).
+- Cadencia de publicacao da leitura executiva: mensal no dia util seguinte ao fechamento mensal e versao quadrimestral no fechamento quadrimestral.
 
 ## 2. Regra oficial - `governanca_em_dia`
 ### Resultado permitido
@@ -119,5 +125,6 @@ Se o `.xlsx` nao estiver no repositorio, registrar lacuna explicitamente no fech
 ## 8. Historico de revisoes
 | Data | Alteracao | Responsavel |
 |---|---|---|
+| 2026-04-02 | Inclusao de parametros objetivos de apuracao/fechamento como proposta para validacao e fechamento das pendencias de prazo em metadados. | Codex |
 | 2026-03-27 | Refinamento das regras de derivacao, incluindo tratamento de dado insuficiente e tabela de campos automaticos. | Codex |
 | 2026-03-26 | Criacao das regras oficiais de derivacao de campos executivos e KPIs. | Codex |

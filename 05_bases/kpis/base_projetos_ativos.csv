@@ -1,4 +1,4 @@
 ano,mes,projeto_id,projeto,sponsor,gerente_projeto,status_projeto,governanca_em_dia,ultimo_status_report,risco_critico_aberto,observacoes
-2026,3,P-2026-001,Jornada do Cliente,[definir],Leticia Fraga,ativo,Nao,2026-03-26,N_A,Governanca nao atendida no periodo: sponsor e aprovacao formal de escopo pendentes; classificacao de criticidade do risco ainda indefinida.
+2026,4,P-2026-001,Jornada do Cliente,Nathalia Tavares,Leticia Fraga,verde,Sim,2026-04-01,Nao,Governanca atendida no periodo: sponsor formalizado, aprovacao inicial registrada, baseline de entregas e marcos documentada e riscos classificados.
 2026,3,P-2026-002,Olympus,[definir],Leticia Fraga,ativo,Nao,2026-03-26,N_A,Governanca nao atendida no periodo: sponsor e aprovacao formal de escopo pendentes; classificacao de criticidade do risco ainda indefinida.
 2026,3,P-2026-003,Metas e Indicadores da Area PPMC,[definir],Leticia Fraga,ativo,Nao,2026-03-26,N_A,Governanca nao atendida no periodo: sponsor e aprovacao formal de escopo pendentes; classificacao de criticidade do risco ainda indefinida.

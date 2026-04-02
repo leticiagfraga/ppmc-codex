@@ -9,13 +9,13 @@ A pasta `05_bases/kpis` e a fonte operacional editavel pelo Codex para KPIs e me
 - Escopo: todos os CSVs desta pasta e sua sincronizacao com os dossies das iniciativas.
 - Responsavel(is): Leticia Fraga (dona funcional); Codex (apoio operacional).
 - Data de criacao: 2026-03-26.
-- Data da ultima atualizacao: 2026-03-27.
+- Data da ultima atualizacao: 2026-04-02.
 - Status: ativo.
 - Referencias relacionadas: `00_governanca/regras_derivacao_kpis.md`, `00_governanca/rotina_operacional_codex_ppmc.md`, `01_projetos/*`.
-- Proximo passo: executar fechamento mensal usando a ordem oficial de sincronizacao.
-- Prazo: [definir].
+- Proximo passo: executar fechamento mensal em data fixa e publicar leitura executiva conforme calendario.
+- Prazo: 2026-05-02.
 - Riscos ou bloqueios: atualizar CSV sem atualizar documento fonte gera divergencia de governanca.
-- Decisoes pendentes: confirmar cadencia formal de publicacao da leitura executiva da planilha `.xlsx`.
+- Decisoes pendentes: validar formalmente os parametros da secao 2.6.
 
 ## 1. Estrutura da pasta
 - `dicionario_kpis.csv`: catalogo oficial de indicadores, formula, fonte e responsavel.
@@ -64,11 +64,17 @@ Campos derivados obrigatorios:
 - Quando houver mudanca de meta, formula, regra de status ou comentario executivo.
 
 ### 2.5 Quando propor atualizacao do `PPC_KPIs_e_Metas_2026.xlsx`
-- No fechamento mensal (recomendado).
-- Obrigatoriamente no fechamento quadrimestral.
+- No fechamento mensal (dia 2 de cada mes).
+- Obrigatoriamente no fechamento quadrimestral (dias 05/05, 05/09 e 05/01).
 - Somente apos validacao de consistencia entre dossies e CSVs.
 
 Se o `.xlsx` nao estiver disponivel no repositorio, registrar a lacuna no fechamento e manter os CSVs como consolidado oficial.
+
+### 2.6 Parametros oficiais de apuracao e leitura executiva (proposta para validacao)
+- Periodicidade oficial de apuracao: mensal.
+- Data fixa de fechamento mensal: dia 2 de cada mes (competencia do mes anterior).
+- Data fixa de fechamento quadrimestral: dia 5 de maio, dia 5 de setembro e dia 5 de janeiro.
+- Cadencia de publicacao da leitura executiva: mensal no dia util seguinte ao fechamento mensal e versao quadrimestral ampliada no fechamento quadrimestral.
 
 ## 3. Regras de preenchimento
 - Nao inventar dados reais; usar placeholders explicitos (`[definir]`) quando faltar informacao.
@@ -93,5 +99,6 @@ Se o `.xlsx` nao estiver disponivel no repositorio, registrar a lacuna no fecham
 ## 6. Historico de revisoes
 | Data | Alteracao | Responsavel |
 |---|---|---|
+| 2026-04-02 | Fechamento das pendencias de calendario e cadencia executiva com parametros objetivos (proposta para validacao). | Codex |
 | 2026-03-27 | Refinamento da regra de sincronizacao e do mapa de derivacao operacional. | Codex |
 | 2026-03-26 | Criacao da base operacional de KPIs em CSV e regras de sincronizacao. | Codex |

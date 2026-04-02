@@ -12,13 +12,13 @@ Este guia define a operacao recorrente do repositorio PPMC no modelo hibrido:
 - Escopo: `01_projetos`, `05_bases/kpis`, `00_governanca` e consolidacao executiva.
 - Responsavel(is): Leticia Fraga (dona operacional); Codex (apoio operacional).
 - Data de criacao: 2026-03-26.
-- Data da ultima atualizacao: 2026-03-27.
+- Data da ultima atualizacao: 2026-04-02.
 - Status: ativo.
 - Referencias relacionadas: `00_governanca/regras_derivacao_kpis.md`, `05_bases/kpis/README.md`, `01_projetos/portfolio_iniciativas_2026.md`.
-- Proximo passo: executar esta rotina no proximo fechamento mensal.
-- Prazo: [definir].
+- Proximo passo: validar os parametros oficiais desta rotina e executar o primeiro fechamento mensal em data fixa.
+- Prazo: 2026-05-02.
 - Riscos ou bloqueios: atualizacao fora da ordem oficial pode gerar divergencia entre fonte documental e base executiva.
-- Decisoes pendentes: confirmar data fixa do fechamento mensal e quadrimestral.
+- Decisoes pendentes: validar formalmente os parametros da secao 7.
 
 ## 1. Como atualizar uma iniciativa
 1. Abrir `01_projetos/<slug>/`.
@@ -94,13 +94,20 @@ Tratativa padrao:
 
 Se o `.xlsx` nao estiver no repositorio no momento do fechamento, registrar a lacuna e manter consolidacao oficial nos CSVs.
 
-## 7. Cadencia recomendada
-- Semanal: riscos, impedimentos e entregas criticas.
-- Mensal: status report e bases CSV.
-- Quadrimestral: leitura executiva consolidada e revisao de metas.
+## 7. Cadencia oficial (proposta para validacao)
+- Periodicidade oficial de apuracao: mensal.
+- Data fixa de fechamento mensal: dia 2 de cada mes (apuracao do mes anterior).
+- Data fixa de fechamento quadrimestral: dia 5 de maio, dia 5 de setembro e dia 5 de janeiro.
+- Cadencia de publicacao da leitura executiva: mensal no dia util seguinte ao fechamento mensal e versao quadrimestral no fechamento quadrimestral.
+- Curadoria formal do portfolio: Leticia Fraga (curadoria funcional) com apoio tecnico do Codex.
+- Criterio oficial de saude das iniciativas:
+  - Verde: `governanca_em_dia = Sim`, `risco_critico_aberto = Nao` e `ultimo_status_report` no periodo de apuracao.
+  - Amarelo: exatamente um criterio acima nao atendido ou `risco_critico_aberto = N_A` por lacuna documental.
+  - Vermelho: dois ou mais criterios nao atendidos ou `risco_critico_aberto = Sim`.
 
 ## 8. Historico de revisoes
 | Data | Alteracao | Responsavel |
 |---|---|---|
+| 2026-04-02 | Fechamento das pendencias de calendario, curadoria e criterio de saude como proposta objetiva para validacao. | Codex |
 | 2026-03-27 | Refinamento do passo a passo operacional mensal/quadrimestral com responsaveis e prazos recomendados. | Codex |
 | 2026-03-26 | Criacao da rotina operacional recorrente do Codex para o modelo hibrido PPMC. | Codex |

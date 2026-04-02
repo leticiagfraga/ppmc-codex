@@ -3,31 +3,31 @@
 ## Resumo executivo
 - Iniciativa: Jornada do Cliente (P-2026-001).
 - Objetivo executivo: Padronizar e reestruturar a jornada do cliente para transformar a experiencia.
-- Escopo aprovado: em formalizacao.
-- Status do kickoff: planejado.
-- Encaminhamento imediato: realizar kickoff formal com sponsor e aprovar escopo macro.
+- Escopo aprovado: aprovado em 2026-01-15 para a fase AS-IS.
+- Status do kickoff: realizado.
+- Encaminhamento imediato: concluir validacao do escopo e priorizacao da fase AS-IS ate 2026-04-02.
 
 ## Metadados
 - Contexto: formalizacao inicial da iniciativa a partir do portfolio 2026.
 - Objetivo: registrar objetivo, escopo, entregas e aprovacao inicial da iniciativa.
 - Escopo: abertura formal e alinhamento de governanca da iniciativa.
-- Responsavel(is): Leticia Fraga (gerente da iniciativa); Sponsor [definir].
+- Responsavel(is): Leticia Fraga (gerente da iniciativa); Sponsor Nathalia Tavares.
 - Data de criacao: 2026-03-26.
-- Data da ultima atualizacao: 2026-03-26.
-- Status: em revisao.
+- Data da ultima atualizacao: 2026-04-01.
+- Status: ativo.
 - Referencias relacionadas: 01_projetos/portfolio_iniciativas_2026.md, 01_projetos/jornada_do_cliente/00_contexto_iniciativa.md, 04_templates/01_charter_kickoff_modelo.md.
-- Proximo passo: conduzir reuniao de kickoff e coletar aprovacao formal do sponsor.
-- Prazo: [definir].
+- Proximo passo: concluir validacao do escopo e priorizacao da fase AS-IS.
+- Prazo: 2026-04-02.
 - Riscos ou bloqueios: Sistemas usados internamente.
-- Decisoes pendentes: aprovacao de escopo, exclusoes, criterios de sucesso e governanca de mudancas.
+- Decisoes pendentes: validacao do escopo e priorizacao da fase AS-IS.
 
 ## 1. Identificacao da iniciativa
 - Nome da iniciativa: Jornada do Cliente
 - ID da iniciativa: P-2026-001
-- Sponsor: [definir]
+- Sponsor: Nathalia Tavares
 - Gerente do projeto: Leticia Fraga
-- Data de kickoff: [definir]
-- Status do kickoff: planejado
+- Data de kickoff: 2026-01-01
+- Status do kickoff: realizado
 
 ## 2. Objetivo executivo
 - Objetivo principal: Padronizar e reestruturar a jornada do cliente para transformar a experiencia.
@@ -46,8 +46,10 @@
 ## 4. Entregas principais
 | Entrega | Descricao | Responsavel | Data alvo |
 |---|---|---|---|
-| E-001 | [definir entrega principal 1] | Leticia Fraga | [definir] |
-| E-002 | [definir entrega principal 2] | [definir] | [definir] |
+| E-001 | Mapeamento da jornada atual AS-IS | Leticia Fraga | 2026-03-25 |
+| E-002 | Consolidacao da Jornada Atual AS-IS | Leticia Fraga | 2026-04-02 |
+| E-003 | Identificacao de GAPs e Oportunidades de Melhoria do AS-IS | Leticia Fraga | 2026-04-07 |
+| E-004 | Desenho do fluxo TO-BE | Leticia Fraga | 2026-04-10 |
 
 ## 5. Premissas e restricoes
 ### Premissas
@@ -68,17 +70,18 @@
 ## 7. Dependencias criticas
 | Dependencia | Impacto | Responsavel | Plano de resposta |
 |---|---|---|---|
-| Sistemas usados internamente. | [alto/medio/baixo] | [definir] | [definir] |
+| Dependencia das areas internas para mapear o processo. | medio | Nathalia Tavares | Alinhar comunicacao previa da sponsor com todos os gestores. |
 
 ## 8. Riscos iniciais
 | ID | Risco | Probabilidade | Impacto | Plano de resposta | Responsavel |
 |---|---|---|---|---|---|
-| R-001 | Sistemas usados internamente. | [definir] | [definir] | [definir] | Leticia Fraga |
+| R-001 | Dependencia das areas internas | media | baixo | Alinhar comunicacao previa da sponsor com todos os gestores. | Leticia Fraga |
+| R-002 | Processo nao padronizado | media | medio | Alinhar mapeamento inicial com os donos de cada etapa. | Leticia Fraga |
 
 ## 9. Aprovacao inicial
 | Papel | Nome | Decisao | Data | Observacao |
 |---|---|---|---|---|
-| Sponsor | [definir] | pendente | [definir] | pendente de validacao formal |
+| Sponsor | Nathalia Tavares | aprovado | 2026-01-15 | aprovacao formal registrada |
 | Gerente de projeto | Leticia Fraga | aprovado | 2026-03-26 | abertura documental inicial aprovada |
 
 ## 10. Registro analitico
@@ -98,10 +101,11 @@
 ## 11. Proximos passos
 | Acao | Responsavel | Prazo | Status |
 |---|---|---|---|
-| Realizar kickoff formal com sponsor e stakeholders chave. | Leticia Fraga | [definir] | aberto |
-| Aprovar entregas, exclusoes e criterios de sucesso. | Sponsor [definir] | [definir] | aberto |
+| Realizar kickoff formal com sponsor e stakeholders chave. | Leticia Fraga | 2026-01-01 | concluido |
+| Aprovar validacao do escopo e priorizacao da fase AS-IS. | Nathalia Tavares e Leticia Fraga | 2026-04-02 | em andamento |
 
 ## 12. Historico de revisoes
 | Data | Alteracao | Responsavel |
 |---|---|---|
+| 2026-04-01 | Atualizacao do sponsor, kickoff, aprovacao inicial, riscos e entregas principais. | Codex |
 | 2026-03-26 | Criacao da versao inicial do charter e kickoff da iniciativa. | Codex |
